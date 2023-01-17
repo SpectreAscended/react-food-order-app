@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './MealItemForm.module.css';
 
 const MealItemForm = () => {
-  return <div></div>;
+  return <form className={classes.form}></form>;
 };
 
 export default MealItemForm;
