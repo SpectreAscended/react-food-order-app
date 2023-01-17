@@ -1,8 +1,16 @@
 import React from 'react';
 import classes from './MealItem.module.css';
 
-const MealItem = () => {
-  return <div></div>;
+const MealItem = props => {
+  return (
+    <li className={classes.meal} key={props.id}>
+      <div>
+        <h3>{props.name}</h3>
+        <p className={classes.description}>{props.description}</p>
+        <span className={classes.price}>{props.price}</span>
+      </div>
+    </li>
+  );
 };
 
 export default MealItem;
