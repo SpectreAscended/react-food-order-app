@@ -7,6 +7,7 @@ const HeaderCartButton = () => {
     <button className={classes.button}>
       <CartIcon className={classes.icon} />
       Your Cart
+      <div className={classes.badge}>2</div>
     </button>
   );
 };
